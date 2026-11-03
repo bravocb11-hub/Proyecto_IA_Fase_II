@@ -1,0 +1,7 @@
+{
+  "accuracy": 0.4737670514165792,
+  "f1_macro": 0.4653192835577733,
+  "n_train": 22869,
+  "n_test": 5718,
+  "dataset_file": "aa_dataset-tickets-multi-lang-5-2-50-version.csv"
+}

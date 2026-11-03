@@ -1,0 +1,9 @@
+services:
+  classifier:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      MODEL_PATH: models/ticket_pipeline.joblib
+      CONFIDENCE_THRESHOLD: "0.50"
+    restart: unless-stopped
